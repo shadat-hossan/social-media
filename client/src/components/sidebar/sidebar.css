@@ -1,6 +1,6 @@
 .sidebar {
   flex: 3;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 60px);
   overflow-y: scroll;
   position: sticky;
   top: 50px;
@@ -29,7 +29,15 @@
 .sidebarListItem {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
+  padding: 10px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sidebarListItem:hover {
+  background: #0a0a0a11;
 }
 
 .sidebarIcon {

@@ -76,3 +76,15 @@
   border-bottom: 1px dashed gray;
   font-size: 15px;
 }
+
+.postTopRight {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.postTopRight:hover,
+.postTopRight:active {
+  background: #02020215;
+}
